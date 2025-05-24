@@ -26,7 +26,7 @@ class TimerApp extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            const TimePicker(),
+            TimePicker(),
             const Timer(),
           ],
         ),
